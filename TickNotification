@@ -2,7 +2,7 @@ local NotificationLibrary = {}
 
 local AbyssGUI = Instance.new("ScreenGui"); AbyssGUI.Name = "Abyss"; AbyssGUI.Parent = game.CoreGui; AbyssGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-function NotificationLibrary:Notify(TitleText, Desc, Delay)
+function NotificationLibrary:TickNotify(TitleText, Desc, Delay)
     local Notification = Instance.new("Frame")
 	local Line = Instance.new("Frame")
 	local Warning = Instance.new("ImageLabel")
@@ -30,7 +30,7 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay)
 	Warning.BackgroundTransparency = 1.000
 	Warning.Position = UDim2.new(0.0258302614, 0, 0.0897435844, 0)
 	Warning.Size = UDim2.new(0, 44, 0, 49)
-	Warning.Image = "rbxassetid://6353957304"
+	Warning.Image = "rbxassetid://12129710031"
 	Warning.ImageColor3 = Color3.fromRGB(241, 196, 15)
 	Warning.ScaleType = Enum.ScaleType.Fit
 
