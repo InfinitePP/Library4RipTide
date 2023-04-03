@@ -69,5 +69,3 @@ function NotificationLibrary:WarnNotify(TitleText, Desc, Delay)
 	    Notification:Destroy()
 end
 
-
-
